@@ -25,7 +25,7 @@ class Interest
     {
         return[
              Interest(title: "travelling around the worlld", featuredImage:#imageLiteral(resourceName: "f1"), color: UIColor(red: 63/255, green: 71/255, blue: 80/255, alpha: 0.8)),
-             Interest(title: "travelling around the worlld", featuredImage:#imageLiteral(resourceName: "f1") , color: UIColor(red: 63/255, green: 71/255, blue: 80/255, alpha: 0.8)),
+             Interest(title: "travelling around the worlld", featuredImage:#imageLiteral(resourceName: "sid-removebg-preview") , color: UIColor(red: 63/255, green: 71/255, blue: 80/255, alpha: 0.8)),
              Interest(title: "travelling around the worlld", featuredImage:#imageLiteral(resourceName: "f1"), color: UIColor(red: 63/255, green: 71/255, blue: 80/255, alpha: 0.8)),
              Interest(title: "travelling around the worlld", featuredImage:#imageLiteral(resourceName: "f1"), color: UIColor(red: 63/255, green: 71/255, blue: 80/255, alpha: 0.8)),
              Interest(title: "travelling around the worlld", featuredImage:#imageLiteral(resourceName: "f1"), color: UIColor(red: 63/255, green: 71/255, blue: 80/255, alpha: 0.8)),

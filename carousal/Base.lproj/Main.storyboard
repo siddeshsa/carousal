@@ -35,8 +35,8 @@
                                     <constraint firstAttribute="height" constant="36" id="Vyd-nv-eXT"/>
                                 </constraints>
                             </imageView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VgK-iy-Xly">
-                                <rect key="frame" x="16" y="126" width="343" height="485"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VgK-iy-Xly">
+                                <rect key="frame" x="0.0" y="126" width="375" height="485"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="30" minimumInteritemSpacing="20" id="Uj7-MD-ncb">
                                     <size key="itemSize" width="200" height="400"/>
@@ -106,8 +106,8 @@
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z2V-AM-x5R">
-                                <rect key="frame" x="16" y="115" width="337" height="1"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z2V-AM-x5R">
+                                <rect key="frame" x="22" y="115" width="337" height="1"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="337" id="YWK-pn-8Nq"/>
@@ -119,14 +119,15 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2EZ-9N-gVM" secondAttribute="bottom" constant="16" id="01B-hJ-YqO"/>
                             <constraint firstItem="VgK-iy-Xly" firstAttribute="top" secondItem="Z2V-AM-x5R" secondAttribute="bottom" constant="10" id="7X0-on-6eG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Z2V-AM-x5R" secondAttribute="trailing" id="AWm-DU-DP1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="y6V-ph-sJx" secondAttribute="bottom" constant="16" id="AdI-61-Bjn"/>
-                            <constraint firstItem="VgK-iy-Xly" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Aig-H1-Rcc"/>
+                            <constraint firstItem="VgK-iy-Xly" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Aig-H1-Rcc"/>
                             <constraint firstItem="3Rx-Yw-SPM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="G0V-bE-nSb"/>
                             <constraint firstItem="2EZ-9N-gVM" firstAttribute="top" secondItem="VgK-iy-Xly" secondAttribute="bottom" constant="10" id="Gfq-1E-511"/>
                             <constraint firstItem="Znm-EO-YSZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="JSz-CY-ZBR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y6V-ph-sJx" secondAttribute="trailing" constant="16" id="d0E-zc-wyI"/>
                             <constraint firstItem="Z2V-AM-x5R" firstAttribute="top" secondItem="Znm-EO-YSZ" secondAttribute="bottom" constant="10" id="j3L-AD-X9f"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VgK-iy-Xly" secondAttribute="trailing" constant="16" id="mI8-BF-o4d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VgK-iy-Xly" secondAttribute="trailing" id="mI8-BF-o4d"/>
                             <constraint firstItem="2EZ-9N-gVM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="o1Y-a4-5We"/>
                             <constraint firstItem="Znm-EO-YSZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wJi-DV-ouP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Rx-Yw-SPM" secondAttribute="trailing" constant="16" id="z5U-wU-FWP"/>
